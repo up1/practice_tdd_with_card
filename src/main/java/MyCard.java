@@ -1,5 +1,7 @@
 public class MyCard {
+
     public String cartAt(int position) {
-        return "2C";
+        String ดอกไพ่ = "C";
+        return String.format("%d%s", position+2, ดอกไพ่);
     }
 }
