@@ -41,6 +41,14 @@ public class MyCardTest {
         assertEquals("2D", myCard.cartAt(14));
     }
 
+    @Test public void
+    ไพ่ใบที่สามสิบห้าในสำรับต้องเป็น_0H() {
+        assertEquals("0H", myCard.cartAt(35));
+    }
 
+    @Test public void
+    ไพ่ใบที่สามสิบหกในสำรับต้องเป็น_0H() {
+        assertEquals("JH", myCard.cartAt(36));
+    }
 
 }
