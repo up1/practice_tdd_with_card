@@ -1,7 +1,6 @@
 public class MyCard {
 
     public String cartAt(int position) {
-        position = position - 1;
         String[] ดอกไพ่ = {"C", "D", "H", "S"};
         String[] เลขไพ่ = {"2", "3", "4", "5", "6", "7", "8", "9", "0", "J", "Q", "K", "A"};
 
