@@ -26,4 +26,9 @@ public class MyCardTest {
         assertEquals("5C", myCard.cartAt(3));
     }
 
+    @Test public void
+    ไพ่ใบที่เก้าในสำรับต้องเป็น_0C() {
+        assertEquals("0C", myCard.cartAt(8));
+    }
+
 }
