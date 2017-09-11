@@ -36,4 +36,11 @@ public class MyCardTest {
         assertEquals("AC", myCard.cartAt(13));
     }
 
+    @Test public void
+    ไพ่ใบที่สิบสี่ในสำรับต้องเป็น_2D() {
+        assertEquals("2D", myCard.cartAt(14));
+    }
+
+
+
 }
