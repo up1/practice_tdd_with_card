@@ -16,4 +16,14 @@ public class MyCardTest {
         assertEquals("3C", myCard.cartAt(1));
     }
 
+    @Test public void
+    ไพ่ใบที่สามในสำรับต้องเป็น_4C() {
+        assertEquals("4C", myCard.cartAt(2));
+    }
+
+    @Test public void
+    ไพ่ใบที่สี่ในสำรับต้องเป็น_4C() {
+        assertEquals("5C", myCard.cartAt(3));
+    }
+
 }
