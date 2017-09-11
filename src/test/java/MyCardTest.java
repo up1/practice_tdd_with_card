@@ -51,4 +51,9 @@ public class MyCardTest {
         assertEquals("JH", myCard.cartAt(36));
     }
 
+    @Test public void
+    ไพ่ใบสุดท้ายของสำรับในสำรับต้องเป็น_AS() {
+        assertEquals("AS", myCard.cartAt(52));
+    }
+
 }
